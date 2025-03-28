@@ -25,7 +25,7 @@ function App() {
       const data = response.data;
       if (data.Response === "True") {
         setMovies([data]);
-        setSelectedMovie(data);
+        // setSelectedMovie(data);
       } else {
         setError(data.Error);
       }
